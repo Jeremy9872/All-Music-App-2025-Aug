@@ -4,30 +4,30 @@ public partial class Practice : ContentPage
 {
 	public Practice()
 	{
-		InitializeComponent();
+		InitializeComponent(); // Navigateing to the practice page of users choise
 	}
     private async void OnFadeButton1Clicked(object sender, EventArgs e)
     {
         
-        await Navigation.PushAsync(new MauiApp2.BOMpractice()); // Navigateing to the practice page of users choise
+        await Navigation.PushAsync(new MauiApp2.BOMpractice()); 
     }
 
     private async void OnFadeButton2Clicked(object sender, EventArgs e)
     {
         
-        await Navigation.PushAsync(new MauiApp2.RhythmPractice());
+        await Navigation.PushAsync(new MauiApp2.RhythmPractice()); 
     }
 
     private async void OnFadeButton3Clicked(object sender, EventArgs e)
     {
         
-        await Navigation.PushAsync(new MauiApp2.IntervalPractice());
+        await Navigation.PushAsync(new MauiApp2.IntervalPractice()); 
     }
 
     private async void OnFadeButton4Clicked(object sender, EventArgs e)
     {
         
-        await Navigation.PushAsync(new MauiApp2.RelativePractice());
+        await Navigation.PushAsync(new MauiApp2.RelativePractice()); 
     }
 
     private void OnButtonPressed1(object sender, EventArgs e)
