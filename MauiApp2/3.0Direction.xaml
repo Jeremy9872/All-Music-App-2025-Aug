@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.DirectionPage"
+             Background="#FBFBFC"
+             Title="DirectionPage">
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25"
+        VerticalOptions="Center">
+
+        <Button
+            x:Name="basic"
+            BackgroundColor="#80B379"
+            Text="Foundation"
+            TextColor="white"
+            Clicked="FoundationCliked"
+            HorizontalOptions="Fill"
+            Pressed="OnButtonPressedBasic"
+            Released="OnButtonReleasedBasic"/>
+
+        <Button
+            x:Name="timeSignature"
+            BackgroundColor="#97A56A"
+            Text="Time SIgnature"
+            TextColor="white"
+            Clicked="TimeClicked"
+            HorizontalOptions="Fill"
+            Pressed="OnButtonPressedTime"
+            Released="OnButtonReleasedTime"/>
+
+        <Button
+            x:Name="interval"
+            BackgroundColor="#9f9a66"
+            Text="Interval Tutorial"
+            TextColor="white"
+            Clicked="IntervalClicked"
+            HorizontalOptions="Fill"
+            Pressed="OnButtonPressedInterval"
+            Released="OnButtonReleasedInterval"/>
+
+        <Button
+            x:Name="relative"
+            BackgroundColor="#A38A71"
+            Text="Relative Major and Minor"
+            TextColor="White"
+            Clicked="RelativeClicked"
+            HorizontalOptions="Fill"
+            Pressed="OnButtonPressedRelative"
+            Released="OnButtonReleasedRelative"/>
+
+
+        <Button
+            x:Name="list"
+            BackgroundColor="#b38984"
+            Text="A list of every keys"
+            TextColor="white"
+            Clicked="ListClicked"
+            HorizontalOptions="Fill"
+            Pressed="OnButtonPressedList"
+            Released="OnButtonReleasedList"/>
+
+        <Button x:Name="backToLastPage" 
+            Text="Back"
+            HorizontalOptions="Start"
+            BackgroundColor="#ebebeb"
+            TextColor="Gray"
+            Clicked="BackClicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>

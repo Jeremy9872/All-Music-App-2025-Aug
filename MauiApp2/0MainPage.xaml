@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage"
+             BackgroundColor="FloralWhite">
+
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25"
+        VerticalOptions="Center">
+
+        <Image
+            x:Name="FadeImage"
+            Source="musicpreppage.png"
+            HeightRequest="185"
+            Aspect="AspectFit"/>
+
+
+        <Button
+            x:Name="FadeButton"
+            TextColor="Black"
+            BackgroundColor="#f5e9d5"
+            Text="START"
+            Clicked="OnFadeButtonClicked"
+            Pressed="OnButtonPressed"
+            Released="OnButtonReleased"
+            HorizontalOptions="Fill" />
+
+    </VerticalStackLayout>
+</ContentPage>
+

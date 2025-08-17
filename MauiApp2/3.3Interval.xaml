@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="MauiApp2.Interval"
+             BackgroundColor="#a8a46f"
+             Title="Interval">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <!-- Title -->
+            <Label Text="🎼 Interval (Music Theory) Tutorial" FontSize="24" FontAttributes="Bold"/>
+
+            <!-- What is an interval -->
+            <Label Text="An interval is the distance between two notes, made of a number + a quality." FontSize="16"/>
+
+            <!-- Interval numbers -->
+            <Label Text="🔢 Interval Numbers" FontSize="20" FontAttributes="Bold"/>
+            <Label Text="This is the count of note names between two notes (including both ends):" FontSize="16"/>
+            <Label Text="• C to D: 2nd (C, D)" />
+            <Label Text="• C to E: 3rd (C, D, E)" />
+            <Label Text="• C to C: 1st (Unison)" />
+            <Label Text="• C to C': 8ve (Octave)" />
+
+            <!-- Interval qualities -->
+            <Label Text="🌈 Interval Qualities" FontSize="20" FontAttributes="Bold"/>
+            <Label Text="Each interval also has a quality:" />
+            <Label Text="• Perfect (P)" />
+            <Label Text="• Major (M)" />
+            <Label Text="• Minor (m)" />
+            <Label Text="• Augmented (A)" />
+            <Label Text="• Diminished (d)" />
+
+            <!-- Examples -->
+            <Label Text="Examples:" FontAttributes="Bold"/>
+            <Label Text="• C to E = Major 3rd (4 semitones)" />
+            <Label Text="• C to Eb = Minor 3rd (3 semitones)" />
+            <Label Text="• C to E# = Augmented 3rd (5 semitones)" />
+            <Label Text="• C to D# = Augmented 2nd (3 semitones)" />
+
+            <Button x:Name="backToLastPage" 
+            Text="Back"
+            HorizontalOptions="Start"
+            BackgroundColor="#ebebeb"
+            TextColor="Gray"
+            Clicked="BackClicked"/>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

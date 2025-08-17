@@ -1,0 +1,66 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.BOMpractice"
+             Title="Basic"
+             BackgroundColor="#7bb088">
+    <StackLayout Padding="20" Spacing="10" VerticalOptions="Center">
+        
+        <!-- Ask user how many question they wanted to do -->
+        <Label Text="How many questions you want to do:"
+               x:Name="AskingNumberOfQuestion"
+               FontSize="18"
+               TextColor="White"
+               HorizontalOptions="Center"
+               Margin="0,0,0,20"/>
+
+         <Entry x:Name="QuestionCountEntry"
+               Placeholder="Enter a number (e.g., 10)"
+               HorizontalOptions="Fill"
+               TextColor="Black"
+               BackgroundColor="white"
+               Keyboard="Numeric" />
+
+        <Button Text="Start Quiz"
+                x:Name="StartQuizButton"
+                HorizontalOptions="Fill"
+                TextColor="Black"
+                BackgroundColor="#9c8970"
+                Clicked="OnStartQuizClicked" />
+
+        <!-- timing -->
+        <Label x:Name="TimerLabel"
+               Text="Time Elapsed: 0.00s"
+               FontSize="25"
+               TextColor="Gray"
+               HorizontalOptions="StartAndExpand"
+               IsVisible="False" />
+
+        <!-- question and options -->
+        <Label x:Name="QuestionLabel"
+               Margin="0,0,0,30"
+               FontSize="18"
+               TextColor="Gray"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               IsVisible="False" />
+
+        <Button x:Name="Option1Button" IsVisible="False" Clicked="OnOptionClicked" BackgroundColor="White" TextColor="#857158"/>
+        <Button x:Name="Option2Button" IsVisible="False" Clicked="OnOptionClicked" BackgroundColor="White" TextColor="#857158"/>
+        <Button x:Name="Option3Button" IsVisible="False" Clicked="OnOptionClicked" BackgroundColor="White" TextColor="#857158"/>
+        <Button x:Name="Option4Button" IsVisible="False" Clicked="OnOptionClicked" BackgroundColor="White" TextColor="#857158"/>
+        <Button Text="Next Question"
+                x:Name="NextButton"
+                IsVisible="False"
+                Clicked="OnNextButtonClicked" />
+
+        <!-- back to last page -->
+        <Button x:Name="backToLastPage" 
+               Text="Back"
+               HorizontalOptions="Start"
+               BackgroundColor="#ebebeb"
+               TextColor="Gray"
+               Clicked="BackClicked"/>
+    </StackLayout>
+</ContentPage>
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.Practice"
+             Title="Quiz"
+             BackgroundColor="#d4ceb2">
+    <!-- Earth tones can mmake users feel relaxed-->
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25"
+        VerticalOptions="Center">
+
+        <Button
+            x:Name="BOM"
+            BackgroundColor="#5f946c"
+            Text="Basic of Music"
+            TextColor="White"
+            Clicked="OnFadeButton1Clicked"
+            HorizontalOptions="Fill"
+            Pressed="OnButtonPressed1"
+            Released="OnButtonReleased1"/>
+
+        <Button
+            x:Name="Rhy"
+            BackgroundColor="#7d945f"
+            Text="Rhythm"
+            TextColor="White"
+            Clicked="OnFadeButton2Clicked"
+            HorizontalOptions="Fill"
+            Pressed="OnButtonPressed2"
+            Released="OnButtonReleased2"/>
+
+        <Button
+            x:Name="Int"
+            BackgroundColor="#948c5f"
+            Text="Interval"
+            TextColor="White"
+            Clicked="OnFadeButton3Clicked"
+            HorizontalOptions="Fill"
+            Pressed="OnButtonPressed3"
+            Released="OnButtonReleased3"/>
+
+        <Button
+            x:Name="Re"
+            BackgroundColor="#946b5f"
+            Text="Relative"
+            TextColor="White"
+            Clicked="OnFadeButton4Clicked"
+            HorizontalOptions="Fill"
+            Pressed="OnButtonPressed4"
+            Released="OnButtonReleased4"/>
+
+        <Button x:Name="backToLastPage" 
+            Text="Back"
+            HorizontalOptions="Start"
+            BackgroundColor="#ebebeb"
+            TextColor="Gray"
+            Clicked="BackClicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>

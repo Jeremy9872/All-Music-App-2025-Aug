@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.AI"
+             BackgroundColor="#fffbf0"
+             Title="Music AI Tutor">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            <Label Text="Ask a music theory question:"
+               FontSize="20"
+               HorizontalOptions="Center" />
+
+            <Entry x:Name="UserInput"
+               Placeholder="e.g. What is a C major chord?"
+               TextColor="Black"
+               FontSize="16" />
+
+            <Button Text="Ask"
+                x:Name="askButton"
+                Clicked="OnSendClicked"
+                BackgroundColor="#b5eda4"
+                TextColor="White"
+                Pressed="OnButtonPressed"
+                Released="OnButtonReleased"/>
+
+            <Label x:Name="ResponseLabel"
+               FontSize="16"
+               TextColor="Black"
+               LineBreakMode="WordWrap"
+               VerticalOptions="Start"
+               HorizontalOptions="Fill"
+               Padding="10" />
+
+            <Button x:Name="backToLastPage" 
+              Text="Back"
+              VerticalOptions="End"
+              HorizontalOptions="Start"
+              BackgroundColor="#ebebeb"
+              TextColor="Gray"
+              Clicked="BackClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

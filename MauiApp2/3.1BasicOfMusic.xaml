@@ -1,0 +1,65 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="MauiApp2.BasicKnoledge"
+             Title="BasicKnowledge">
+
+    <ScrollView BackgroundColor="#80b370">
+        <VerticalStackLayout Spacing="20" Padding="20" Margin="50,0,50,0" >
+            <Label Text="Key Signature and Intervals"  Margin="0,0,0,30" FontSize="40" HorizontalOptions="Center" Style="{StaticResource Headline}"/>
+
+            <Label Text="I. What is MUSIC" Style="{StaticResource SubHeadline}" FontSize="32" TextColor="White"/>
+            <Label Text="🎶 Music is organized sound. It has two basic elements:"/>
+            <Grid RowDefinitions="Auto,Auto, Auto" ColumnDefinitions="*,*,*" Padding="10">
+                <!-- 表頭 -->
+                <Label Grid.Row="0" Grid.Column="0" Text="  Element" FontAttributes="Bold" BackgroundColor="LightGray"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="  Description" FontAttributes="Bold" BackgroundColor="LightGray"/>
+                <Label Grid.Row="0" Grid.Column="2" Text=" Example" FontAttributes="Bold" BackgroundColor="LightGray"/>
+
+                <Label Grid.Row="1" Grid.Column="0" Text="  Pitch"/>
+                <Label Grid.Row="1" Grid.Column="1" Text="  How high or low a sound is	"/>
+                <Label Grid.Row="1" Grid.Column="2" Text="  A violin (high) vs. a bass drum (low)"/>
+
+                <Label Grid.Row="2" Grid.Column="0" Text="  timeSignature"/>
+                <Label Grid.Row="2" Grid.Column="1" Text="  How long or short sounds are"/>
+                <Label Grid.Row="2" Grid.Column="2" Text="  Fast clapping vs. slow bell toll"/>
+
+            </Grid>
+
+
+            <Label Text="II. Musical Symbols" Style="{StaticResource SubHeadline}" FontSize="Body" TextColor="White"/>
+            <Image
+                x:Name="elementsImage"
+                Source="elements.png"
+                HeightRequest="185"
+                Aspect="AspectFit"/>
+            <Label Text="1. Staff and Clefs" FontSize="20" Margin="0, 0, 0, -15"/>
+            <Label Text="Staff – 5 horizontal lines used to notate pitch." Margin="0,0,0,0" FontSize="18"/>
+            <Label Text="Treble Clef (𝄞) – Used for higher-pitched instruments and voices (e.g., piano right hand, violin)." Margin="0,-20,0,0" FontSize="18"/>
+            <Label Text="Bass Clef (𝄢) – For lower-pitched instruments (e.g., piano left hand, cello)." Margin="0, -20, 0, 20" FontSize="18"/>
+
+            <Label Text="2. Rests" FontSize="20" Margin="0, 0, 0, -15"/>
+            <Label Text="Eighth Rest (𝄾) – 1/2 beat of silence." Margin="0,0,0,0" FontSize="18"/>
+            <Label Text="Quarter Rest (𝄽) – 1 beat of silence." Margin="0,-20,0,20" FontSize="18"/>
+
+            <Label Text="3. Sharp and Flat signs" FontSize="20" Margin="0, 0, 0, -15"/>
+            <Label Text="Sharp (♯) – Raises pitch by a half step." Margin="0, 0, 0, 0" FontSize="18"/>
+            <Label Text="Flat (♭) – Lowers pitch by a half step." Margin="0, -20, 0, 0" FontSize="18"/>
+            <Label Text="Natural (♮) – Cancels previous sharps or flats." Margin="0, -20, 0, 20" FontSize="18"/>
+
+            <Label Text="4. Notes (Pitch)" FontSize="20" Margin="0, 0, 0, -15"/>
+            <Label Text="Whole Note (𝅝) – 4 beats." Margin="0, 0, 0, 0" FontSize="18"/>
+            <Label Text="Half Note (𝅗𝅥) – 2 beats." Margin="0, -20, 0, 0" FontSize="18"/>
+            <Label Text="Quarter Note (𝅘𝅥) – 1 beat." Margin="0, -20, 0, 0" FontSize="18"/>
+            <Label Text="Eighth Note (𝅘𝅥𝅮) – 1/2 beat." Margin="0, -20, 0, 0" FontSize="18"/>
+            <Label Text="Sixteenth Note (𝅘𝅥𝅯) – 1/4 beat." Margin="0, -20, 0, 50" FontSize="18"/>
+
+            <Button x:Name="backToLastPage" 
+                      Text="Back"
+                      HorizontalOptions="Start"
+                      BackgroundColor="#ebebeb"
+                      TextColor="Gray"
+                      Clicked="BackClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

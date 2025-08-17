@@ -1,0 +1,62 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.IntervalPractice"
+             Title="Interval"
+             BackgroundColor="#a69e71">
+    <StackLayout Padding="20" Spacing="10" VerticalOptions="Center">
+        <!-- 題數選擇 -->
+        <Label Text="How many questions you want to do:"
+               x:Name="AskingNumberOfQuestionB"
+               FontSize="18"
+               TextColor="white"
+               HorizontalOptions="Center"
+               Margin="0,0,0,20"/>
+
+        <Entry x:Name="QuestionCountEntryB"
+               Placeholder="Enter a number (e.g., 10)"
+               HorizontalOptions="Fill"
+               BackgroundColor="white"
+               TextColor="Black"
+               Keyboard="Numeric" />
+
+
+        <Button Text="Start Quiz"
+                x:Name="StartQuizButtonB"
+                HorizontalOptions="Fill"
+                BackgroundColor="#9c8970"
+                Clicked="OnStartQuizClicked" />
+
+        <!-- 顯示碼錶 -->
+        <Label x:Name="TimerLabelB"
+               Text="Time Elapsed: 0.00s"
+               FontSize="25"
+               TextColor="Gray"
+               HorizontalOptions="StartAndExpand"
+               IsVisible="False" />
+
+        <!-- 問題與選項 -->
+        <Label x:Name="QuestionLabelB"
+               Margin="0,0,0,30"
+               FontSize="18"
+               TextColor="white"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               IsVisible="False" />
+        
+        <Button x:Name="backToLastPage" 
+                Text="Back"
+                HorizontalOptions="Start"
+                BackgroundColor="#ebebeb"
+                TextColor="Gray"
+                Clicked="BackClicked"/>
+
+        <Button x:Name="Option1ButtonB" IsVisible="False" Clicked="OnOptionClicked" BackgroundColor="White" TextColor="#857158"/>
+        <Button x:Name="Option2ButtonB" IsVisible="False" Clicked="OnOptionClicked" BackgroundColor="White" TextColor="#857158"/>
+        <Button x:Name="Option3ButtonB" IsVisible="False" Clicked="OnOptionClicked" BackgroundColor="White" TextColor="#857158"/>
+        <Button x:Name="Option4ButtonB" IsVisible="False" Clicked="OnOptionClicked" BackgroundColor="White" TextColor="#857158"/>
+        <Button Text="Next Question"
+                x:Name="NextButtonB"
+                IsVisible="False"
+                Clicked="OnNextButtonClicked" />
+    </StackLayout>
+</ContentPage>

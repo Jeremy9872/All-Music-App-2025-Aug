@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.timeSignature"
+             BackgroundColor="#a2ad74"
+             Title="timeSignature">
+    <ScrollView >
+        <VerticalStackLayout Spacing="20" Padding="20" Margin="50,0,0,0" >
+            <Label Text="Time Signature"  Margin="0,0,0,0" FontSize="40" HorizontalOptions="Center" Style="{StaticResource Headline}"/>
+
+            <HorizontalStackLayout Spacing="20"  Margin="0,0,50,0" >
+                <Image
+                x:Name="timesignature"
+                Source="timesignature.png"
+                HeightRequest="185"
+                HorizontalOptions="Start"/>
+
+                <Label />
+                <VerticalStackLayout>
+                    <Label Text="4" FontSize="70" Margin="0,0,0,-10"/>
+                    <Label Text="4" FontSize="70"/>
+                </VerticalStackLayout>
+                <VerticalStackLayout>
+                    <Label Text=""/>
+                    <Label Text="How many beats are in each measure" FontSize="20"/>
+                    <Label Text="What kind of note gets one beat" FontSize="20" Margin="0,65,0,0"/>
+                    <Label Text="4 represents quater note, 8 represent eighth note, 2 represent half note"/>
+
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+            <Label Text="So in this example, 4/4 means there are 4 quater notes in one measure" Margin="350,-35,0,50"/>
+            
+            <Button x:Name="backToLastPage" 
+                      Text="Back"
+                      HorizontalOptions="Start"
+                      BackgroundColor="#ebebeb"
+                      TextColor="Gray"
+                      Clicked="BackClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

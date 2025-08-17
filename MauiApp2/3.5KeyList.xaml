@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.KeyList"
+             BackgroundColor="#bd948f"
+             Title="List">
+
+    <ScrollView >
+        <VerticalStackLayout Spacing="20" Padding="20" Margin="50,0,50,0">
+            <Grid RowDefinitions="auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto" ColumnDefinitions="*,*" Padding="10">
+
+                <Label Grid.Row="0" Grid.Column="0" Text="  Tonality" FontAttributes="Bold" BackgroundColor="LightGray"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="  Key Signature" FontAttributes="Bold" BackgroundColor="LightGray"/>
+
+                <!-- Major Keys -->
+                <Label Grid.Row="1" Grid.Column="0" Text="  C Major"/>
+                <Label Grid.Row="1" Grid.Column="1" Text="  No sharps or flats&#10;&#10;"/>
+
+                <Label Grid.Row="2" Grid.Column="0" Text="  G Major"/>
+                <Label Grid.Row="2" Grid.Column="1" Text="  1 sharp&#10; (F#)&#10;"/>
+
+                <Label Grid.Row="3" Grid.Column="0" Text="  D Major"/>
+                <Label Grid.Row="3" Grid.Column="1" Text="  2 sharps&#10; (F# C#)&#10;"/>
+
+                <Label Grid.Row="4" Grid.Column="0" Text="  A Major"/>
+                <Label Grid.Row="4" Grid.Column="1" Text="  3 sharps&#10; (F# C# G#)&#10;"/>
+
+                <Label Grid.Row="5" Grid.Column="0" Text="  E Major"/>
+                <Label Grid.Row="5" Grid.Column="1" Text="  4 sharps&#10; (F# C# G# D#)&#10;"/>
+
+                <Label Grid.Row="6" Grid.Column="0" Text="  B Major"/>
+                <Label Grid.Row="6" Grid.Column="1" Text="  5 sharps&#10; (F# C# G# D# A#)&#10;"/>
+
+                <Label Grid.Row="7" Grid.Column="0" Text="  F# Major"/>
+                <Label Grid.Row="7" Grid.Column="1" Text="  6 sharps&#10; (F# C# G# D# A# E#)&#10;"/>
+
+                <Label Grid.Row="8" Grid.Column="0" Text="  C# Major"/>
+                <Label Grid.Row="8" Grid.Column="1" Text="  7 sharps&#10; (F# C# G# D# A# E# B#)&#10;"/>
+
+                <Label Grid.Row="9" Grid.Column="0" Text="  F Major"/>
+                <Label Grid.Row="9" Grid.Column="1" Text="  1 flat&#10; (Bb)&#10;"/>
+
+                <Label Grid.Row="10" Grid.Column="0" Text="  Bb Major"/>
+                <Label Grid.Row="10" Grid.Column="1" Text="  2 flats&#10; (Bb Eb)&#10;"/>
+
+                <Label Grid.Row="11" Grid.Column="0" Text="  Eb Major"/>
+                <Label Grid.Row="11" Grid.Column="1" Text="  3 flats&#10; (Bb Eb Ab)&#10;"/>
+
+                <Label Grid.Row="12" Grid.Column="0" Text="  Ab Major"/>
+                <Label Grid.Row="12" Grid.Column="1" Text="  4 flats&#10; (Bb Eb Ab Db)&#10;"/>
+
+                <Label Grid.Row="13" Grid.Column="0" Text="  Db Major"/>
+                <Label Grid.Row="13" Grid.Column="1" Text="  5 flats&#10; (Bb Eb Ab Db Gb)&#10;"/>
+
+                <Label Grid.Row="14" Grid.Column="0" Text="  Gb Major"/>
+                <Label Grid.Row="14" Grid.Column="1" Text="  6 flats&#10; (Bb Eb Ab Db Gb Cb)&#10;"/>
+
+                <Label Grid.Row="15" Grid.Column="0" Text="  Cb Major"/>
+                <Label Grid.Row="15" Grid.Column="1" Text="  7 flats&#10; (Bb Eb Ab Db Gb Cb Fb)&#10;"/>
+
+                <!-- Minor Keys -->
+                <Label Grid.Row="16" Grid.Column="0" Text="  A Minor"/>
+                <Label Grid.Row="16" Grid.Column="1" Text="  No sharps or flats&#10;&#10;"/>
+
+                <Label Grid.Row="17" Grid.Column="0" Text="  E Minor"/>
+                <Label Grid.Row="17" Grid.Column="1" Text="  1 sharp&#10; (F#)&#10;"/>
+
+                <Label Grid.Row="18" Grid.Column="0" Text="  B Minor"/>
+                <Label Grid.Row="18" Grid.Column="1" Text="  2 sharps&#10; (F# C#)&#10;"/>
+
+                <Label Grid.Row="19" Grid.Column="0" Text="  F# Minor"/>
+                <Label Grid.Row="19" Grid.Column="1" Text="  3 sharps&#10; (F# C# G#)&#10;"/>
+
+                <Label Grid.Row="20" Grid.Column="0" Text="  C# Minor"/>
+                <Label Grid.Row="20" Grid.Column="1" Text="  4 sharps&#10; (F# C# G# D#)&#10;"/>
+
+                <Label Grid.Row="21" Grid.Column="0" Text="  G# Minor"/>
+                <Label Grid.Row="21" Grid.Column="1" Text="  5 sharps&#10; (F# C# G# D# A#)&#10;"/>
+
+                <Label Grid.Row="22" Grid.Column="0" Text="  D# Minor"/>
+                <Label Grid.Row="22" Grid.Column="1" Text="  6 sharps&#10; (F# C# G# D# A# E#)&#10;"/>
+
+                <Label Grid.Row="23" Grid.Column="0" Text="  A# Minor"/>
+                <Label Grid.Row="23" Grid.Column="1" Text="  7 sharps&#10; (F# C# G# D# A# E# B#)&#10;"/>
+
+                <Label Grid.Row="24" Grid.Column="0" Text="  D Minor"/>
+                <Label Grid.Row="24" Grid.Column="1" Text="  1 flat&#10; (Bb)&#10;"/>
+
+                <Label Grid.Row="25" Grid.Column="0" Text="  G Minor"/>
+                <Label Grid.Row="25" Grid.Column="1" Text="  2 flats&#10; (Bb Eb)&#10;"/>
+
+                <Label Grid.Row="26" Grid.Column="0" Text="  C Minor"/>
+                <Label Grid.Row="26" Grid.Column="1" Text="  3 flats&#10; (Bb Eb Ab)&#10;"/>
+
+                <Label Grid.Row="27" Grid.Column="0" Text="  F Minor"/>
+                <Label Grid.Row="27" Grid.Column="1" Text="  4 flats&#10; (Bb Eb Ab Db)&#10;"/>
+
+                <Label Grid.Row="28" Grid.Column="0" Text="  Bb Minor"/>
+                <Label Grid.Row="28" Grid.Column="1" Text="  5 flats&#10; (Bb Eb Ab Db Gb)&#10;"/>
+
+                <Label Grid.Row="29" Grid.Column="0" Text="  Eb Minor"/>
+                <Label Grid.Row="29" Grid.Column="1" Text="  6 flats&#10; (Bb Eb Ab Db Gb Cb)&#10;"/>
+
+                <Label Grid.Row="30" Grid.Column="0" Text="  Ab Minor"/>
+                <Label Grid.Row="30" Grid.Column="1" Text="  7 flats&#10; (Bb Eb Ab Db Gb Cb Fb)&#10;"/>
+            </Grid>
+
+            <!-- Me sharing personal experiences -->
+            <Label Text='There is a thing called "enharmonic equivalence", means notes that sound the same but are written differently. Like D# = Eb, Gb = F#, B# = C.' FontSize="18" Margin="0, 20, 0, 10"/>
+            <Label Text="And if you compare Cb Major and B Major, you will find something interesting..."/>
+            
+            <Button x:Name="backToLastPage" 
+                    Text="Back"
+                    HorizontalOptions="Start"
+                    BackgroundColor="#ebebeb"
+                    TextColor="Gray"
+                    Clicked="BackClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
