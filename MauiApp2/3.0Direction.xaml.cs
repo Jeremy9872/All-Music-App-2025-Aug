@@ -8,7 +8,7 @@ public partial class DirectionPage : ContentPage
     }
     private async void IntervalClicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new MauiApp2.Interval());
+        await Navigation.PushAsync(new MauiApp2.Interval()); // Navigateing to the direction page of users choise
     }
 
     private async void FoundationCliked(object sender, EventArgs e)
@@ -33,12 +33,12 @@ public partial class DirectionPage : ContentPage
 
     private void OnButtonPressedInterval(object sender, EventArgs e)
     {
-        interval.Opacity = 0.7; 
+        interval.Opacity = 0.7; // Intuitive design, users can visually feel that the button is pressed
     }
 
     private void OnButtonReleasedInterval(object sender, EventArgs e)
     {
-        interval.Opacity = 1; 
+        interval.Opacity = 1; // Intuitive design, users can visually feel that the button is released
     }
 
     private void OnButtonPressedTime(object sender, EventArgs e)
