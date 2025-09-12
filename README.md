@@ -3,7 +3,7 @@
 ### Demonstration vedio: https://youtu.be/o9Zw6ClK2_o 
 
 **All Music Prep** is an **unpublished app** I developed to improve **music practice efficiency and independent learning** for students.
-This project shows my ability to turn an idea into a practical solution, combining my experience in **piano learning** with my interest in **coding** to create a tool that supports **self-paced learning** and **progress tracking**. During the app-making process, I **communicated extensively with AI**, layering my ideas into multiple layers to make it easier for the AI to understand. Combining what I learned in school, I successfully created a product that closely aligned with my vision.
+This project shows my ability to turn an idea into a practical solution, combining my experience in **piano learning** with my interest in **coding** to create a tool that supports **self-paced learning** and **progress tracking**. During the app-making process, I **communicated extensively with AI**, layering my ideas to make it easier for the AI to understand. Combining what I learned in school, I successfully created a product that closely aligned with my vision.
 
 ---
 
