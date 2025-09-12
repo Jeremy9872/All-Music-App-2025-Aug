@@ -16,10 +16,10 @@ I wanted to build a **more interactive and flexible platform** that allows stude
 
 ## ✨ Features 
 - **Logo** → I designed it from ideas of my own :)
-- **Interface Design** → Use earth-tone color to make the user feel relaxed while interacting with interfaces
-- **Customizable Practice** → Users can set the number of questions they want to do, avoid prolonged practicing, which can lead to decreased concentration and waste of time
+- **Interface Design** → Use earth-tone color to **make the user feel relaxed** while interacting with interfaces
+- **Customizable Practice** → Users can set the number of questions they want to do. **Avoid prolonged practice and waste of time**
 - **Answer Report** → Accuracy and time monitoring for self-paced learning, user will be able to stay on track of their improvement
-- **AI Q&A Interface** → I suddenly had an idea that AI's resilience could make up for my lack of teaching resources and solve the problem of whether students could answer questions in the teaching materials I provided during their use. Therefore, I added this AI Q&A function midway. This interface is connected to an external AI model, which means it requires more time to respond than other AI models, such as GPT and DeepSeek. I am learning how to build artificial intelligence from scratch and will apply it to my system design in the future.
+- **AI Q&A Interface** → I suddenly had an idea that AI's resilience could make up for my lack of teaching resources and solve the problem of whether students could answer questions in the teaching materials I provided during their use. Therefore, I added this AI Q&A function midway. This interface is connected to an external AI model, which means it requires more time to respond than other AI models, such as GPT and DeepSeek. I am learning how to build artificial intelligence from scratch and will apply it to my system design in the future
 
 
 
