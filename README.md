@@ -25,7 +25,5 @@ I wanted to build a **more interactive and flexible platform** that allows stude
 
 
 ## 💡 Reflection and takeaways
-
-I gained skills in **coding, problem-solving, and thoughtful design**. Most importantly, I learned the value of **combining creativity and technical skills** to make a real impact.  
-
+During this process, I realized that the seemingly rational use of everything provided by others is actually the result of meticulous design and careful consideration. This profoundly changed my perspective on the world around me. I began to admire things I had previously considered reasonable and became curious about the principles that govern everything in life. This has driven me to become a systems person, contributing to society by shaping people's experiences, much like Yoav Blum's "coincidence maker."
 ---
