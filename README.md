@@ -1,11 +1,25 @@
 Demonstration video: https://youtu.be/o9Zw6ClK2_o
 
-This project showcases my passions for music, coding, and learning, as well as communication, conception, and the accomplishment that comes from solving problems with purpose.
+All Music Prep
 
-I was initially motivated by the limited functionality of the music learning website used in school music class, which only offered basic knowledge exercises. Combining my musical background and my interest in programming, I created this app, hoping to help students learn more efficiently. My teacher recommended this project for the Arizona Seal of Arts Proficiency, an award that recognizes students who make meaningful contributions across multiple disciplines.
+All Music Prep is a web app I developed to improve music practice efficiency for students. It combines my experience in piano with my interest in programming to create a tool that supports self-paced learning and progress tracking.
 
-The app's features were tailored through discussions with our school music teacher. I implemented an AI Q&A interface and tried to train it to respond only to music-related queries. Additionally, I enhanced some aspects of the old site, including allowing users to set the number of questions and track their accuracy and time. This way, students could self-pace and measure their progress.
+Motivation
 
-One memorable challenge was integrating audio files. Despite trying several libraries and installation methods, I ultimately couldn't implement them, but the process led me to discover the efficiency of using terminal scripts. I ended up writing a command-line tool that automated my workflow, cutting modification time by nearly 80%.
+The school’s music learning website only offered basic exercises, which limited student engagement and the depth of practice. I wanted to create a more interactive and flexible platform that could accommodate individual learning needs.
 
-While coding is just an interest, what truly excites me is knowing how I can combine my interest and expertise to support others. In addition to the excitement of resolving all 126 errors at once, I find satisfaction in the thoughtful design that brings my vision to life. I am, and will always, carry this spirit as I continue exploring the knowledge I seek.
+Features
+
+AI Q&A Interface: Responds to music-related queries, enabling students to grasp concepts quickly.
+
+Customizable Practice: Users can set the number of questions and track their accuracy and completion time.
+
+Progress Monitoring: Students can measure their improvement over time.
+
+Challenges and Solutions
+
+One major challenge was integrating audio files. After trying multiple libraries and installation methods, I was unable to implement this feature. However, this led me to develop command-line scripts that automated repetitive tasks, reducing workflow time by nearly 80%.
+
+Reflection
+
+This project taught me how to transform an idea into a functional tool that supports others. It strengthened my coding skills and gave me satisfaction in thoughtful design, problem-solving, and iterative development.
