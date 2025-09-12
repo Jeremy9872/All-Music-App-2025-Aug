@@ -15,7 +15,7 @@ I wanted to build a **more interactive and flexible platform** that allows stude
 
 
 ## ✨ Features 
-- **Logo** → I designed it from my own idea : )
+- **Logo** → I designed it from ideas of my own :)
 - **Interface Design** → Use earth-tone color to make the user feel relaxed while interacting with interfaces
 - **Customizable Practice** → Users can set the number of questions they want to do, avoid prolonged practicing, which can lead to decreased concentration and waste of time
 - **Progress Tracking** → Accuracy and time monitoring for self-paced learning, user will be able to stay on track of their improvement
