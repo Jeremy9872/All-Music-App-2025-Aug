@@ -3,7 +3,7 @@
 ### Demonstration vedio: https://youtu.be/o9Zw6ClK2_o 
 
 **All Music Prep** is an **unpublished app** I developed to improve **music practice efficiency and independent learning** for students.
-This project shows my ability to turn an idea into a practical solution, combining my experience in **piano learning** with my interest in **coding** to create a tool that supports **self-paced learning** and **progress tracking**. During the app-making process, I **communicated extensively with AI**, layering my ideas to make it easier for the AI to understand. Combining what I learned in school, I successfully created a product that closely aligned with my vision.
+This project demonstrates my ability to transform an idea into a practical solution, combining my experience in **piano learning** with my interest in **coding** to enhance the functionality of the original site our school music class was using. During the app-making process, I **communicated extensively with AI**, layering my ideas to make it easier for the AI to understand. Combining what I learned in school, I successfully created a product that closely aligned with my vision.
 
 ---
 
@@ -26,5 +26,3 @@ I wanted to build a **more interactive and flexible platform** that allows stude
 
 ## 💡 Reflection and takeaways
 I realized that every rational experience is, in fact, the result of meticulous consideration of designers. This profoundly changed my perspective on the world around me. I began to admire things I had previously considered reasonable and became curious about the principles that govern everything in life. This has driven me to become a systems person, contributing to society by shaping people's experiences.
-
----
