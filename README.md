@@ -26,7 +26,6 @@ I wanted to build a **more interactive and flexible platform** that allows stude
 
 ## 💡 Reflection and takeaways
 This project taught me how to turn an **idea into a functional tool** that supports others. 
-I gained skills in **coding, problem-solving, and thoughtful design**.  
-Most importantly, I learned the value of **combining creativity and technical skills** to make a real impact.  
+I gained skills in **coding, problem-solving, and thoughtful design**. Most importantly, I learned the value of **combining creativity and technical skills** to make a real impact.  
 
 ---
