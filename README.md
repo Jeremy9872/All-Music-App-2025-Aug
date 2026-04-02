@@ -26,3 +26,7 @@ I wanted to build a **more interactive and flexible platform** that allows stude
 
 ## 💡 Reflection and takeaways
 I realized that every rational experience is, in fact, the result of meticulous consideration of designers. This profoundly changed my perspective on the world around me. I began to admire things I had previously considered reasonable and became curious about the principles that govern everything in life. This has driven me to become a systems person, contributing to society by shaping people's experiences.
+
+These four years I took Piano, Advanced Piano, AP Computer Science, and AP Cybersecurity. It seems to have no connection between these subjects, however, by taking piano class, I notice the demand of self learning material, and CTE class give be the basic knowledge to accomplish this project. I see this capstone a bridge between the two decipline that I am interested in.
+
+If I were to improve this project, I would focus on the data storing system. This version of the app cannot save any progress that user have, so I think it will be more efficient and effective if we can save the users' progress in the system, connect it to the build-in AI, so when they ask a question, AI can respond differently based on whay criteria of knowledge they are missing, and also letting users to keep tracking the hard work they are putting in their music learning path.
